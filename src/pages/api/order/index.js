@@ -7,17 +7,17 @@ export default async function handler(req, res) {
 
   switch (status) {
     case 'pending':
-      res.json({data: orders.map(mapUsers).filter(order => order.status === 'pending')}).status(200);
+      res.json({data: orders.map(mapUsers).filter(order => order.status === 'pending')});
       break;
     case 'enRoute':
-      res.json({data: orders.map(mapUsers).filter(order => order.status === 'enRoute')}).status(200);
+      res.json({data: orders.map(mapUsers).filter(order => order.status === 'enRoute')});
       break;
     case 'completed':
-      res.json({data: orders.map(mapUsers).filter(order => order.status === 'completed')}).status(200);
+      res.json({data: orders.map(mapUsers).filter(order => order.status === 'completed')});
       break;
     case 'all':
     default:
-      res.json({data: orders.map(mapUsers)}).status(200)
+      res.json({data: orders.map(mapUsers)})
       break;
   }
   res.json({message: 'not found'}).status(404);
