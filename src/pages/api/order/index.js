@@ -20,5 +20,4 @@ export default async function handler(req, res) {
       res.json({data: orders.map(mapUsers)})
       break;
   }
-  res.json({message: 'not found', data: [], error: true});
 }
