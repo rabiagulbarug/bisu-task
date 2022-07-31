@@ -5,15 +5,15 @@ import products from '../../../assets/database/products.json';
 export default async function handler(req, res) {
   const {id} = req.query;
   if (!id) {
-    res.status(404).json({message: 'not found'});
+    res.json({message: 'not found', error: true});
   }
   const order = orders.find(order => Number(order.id) === Number(id));
   if (!order) {
-    res.status(404).json({message: 'not found'});
+    res.json({message: 'not found', error: true});
   }
   const customer = users.find(user => user.id === order.customerId);
   if (!customer) {
-    res.status(500).json({message: 'cannot find user with customerId', order});
+    res.json({message: 'cannot find user with customerId', order, error: true});
   }
 
   res.json({
@@ -24,5 +24,5 @@ export default async function handler(req, res) {
       })],
       customer: {...customer, password: undefined}
     }
-  }).status(200);
+  });
 }
