@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "firstName": "Rabia Gül",
+    "lastName": "BARUĞ",
+    "email": "rabiabrg7@gmail.com",
+    "role": "admin",
+    "password": "rabia123",
+    "registeredAt": "01/01/2022 09:00:00"
+  },
+  {
+    "id": 2,
+    "firstName": "Orkun",
+    "lastName": "ÇAKILKAYA",
+    "email": "orkuncakilkaya@gmail.com",
+    "role": "admin",
+    "password": "orkun123",
+    "registeredAt": "02/01/2022 09:00:00"
+  },
+  {
+    "id": 3,
+    "firstName": "Sueda",
+    "lastName": "ALLEFBAŞI",
+    "email": "suedaallef95@domain.tld",
+    "role": "support",
+    "password": "sueda123",
+    "registeredAt": "07/01/2022 09:00:00"
+  },
+  {
+    "id": 4,
+    "firstName": "Ahmet",
+    "lastName": "TÜRK",
+    "email": "ahmetturk93@domain.tld",
+    "role": "customer",
+    "password": "ahmet123",
+    "registeredAt": "03/01/2022 09:00:00"
+  },
+  {
+    "id": 5,
+    "firstName": "Halime",
+    "lastName": "UÇAR TÜRK",
+    "email": "halimeucar93@domain.tld",
+    "role": "customer",
+    "password": "halime123",
+    "registeredAt": "04/01/2022 09:00:00"
+  },
+  {
+    "id": 6,
+    "firstName": "Necip",
+    "lastName": "Allefbaşı",
+    "email": "necipallefbasi90@domain.tld",
+    "role": "customer",
+    "password": "necip123",
+    "registeredAt": "05/01/2022 09:00:00"
+  },
+  {
+    "id": 7,
+    "firstName": "Mustafa",
+    "lastName": "YAĞCI",
+    "email": "mstfygci@domain.tld",
+    "role": "customer",
+    "password": "mustafa123",
+    "registeredAt": "06/01/2022 09:00:00"
+  }
+]

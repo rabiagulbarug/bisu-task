@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Erikli Damacana Su (İadesiz)",
+    "price": 50
+  },
+  {
+    "id": 2,
+    "name": "Erikli Damacana Su (İadeli)",
+    "price": 40
+  },
+  {
+    "id": 3,
+    "name": "Damacana Pompası",
+    "price": 10
+  },
+  {
+    "id": 4,
+    "name": "Elektronik Damacana Pompası",
+    "price": 30
+  }
+]
