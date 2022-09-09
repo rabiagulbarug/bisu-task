@@ -96,7 +96,7 @@ const LoginPage = () => {
       <Card sx={{zIndex: 1}}>
         <CardContent sx={{padding: theme => `${theme.spacing(12, 9, 7)} !important`}}>
           <Box sx={{mb: 8, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-            <StyledLogo src={"/images/logos/bisu_blue.png"} alt={"BiSU Dashboard"}/>
+            <StyledLogo src={"/images/logos/bisu_blue.png"} alt={"BiSU Dashboard Test"}/>
           </Box>
           <form noValidate autoComplete='off' onSubmit={handleSubmit}>
             <TextField autoFocus defaultValue={values.email} fullWidth id='email' label='Email' autoComplete='off' sx={{marginBottom: 4}}
